@@ -14,7 +14,7 @@ class Oval : public Shape{
             " with m_x_radius : " << m_x_radius << " and m_y_radius: " << m_y_radius << std::endl;
         }
     protected :    
-        virtual double get_x_rad() const{
+        double get_x_rad() const{
             return m_x_radius;
         }
 
